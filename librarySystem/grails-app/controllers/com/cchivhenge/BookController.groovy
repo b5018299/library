@@ -2,7 +2,5 @@ package com.cchivhenge
 
 class BookController {
 
-	def scaffold= Student
-
-    def index() { }
+	def scaffold= Book
 }

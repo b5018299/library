@@ -10,6 +10,8 @@ String description
 String studyMode
 Boolean sandwichDegree
 
+static hasMany=[students:Student]
+
     static constraints = {
 
 title blank:false, nullable:false
