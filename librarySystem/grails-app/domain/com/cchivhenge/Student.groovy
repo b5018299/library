@@ -2,9 +2,9 @@ package com.cchivhenge
 
 class Student {
 
-String name
+String fullName
 String email
-String username
+String userName
 String password
 String studentID
 Course course
@@ -15,10 +15,10 @@ static hasMany=[bookReviews:BookReview, books:Book]
 
     static constraints = {
 
-name blank:false, nullable:false
+fullName blank:false, nullable:false
 email blank:false, nullable:false, unique:true, email:true
-username blank:false, nullable:false, unique:true
-password blank:false, nullable:false
+userName blank:false, nullable:false, unique:true
+password blank:false, nullable:false, password:true
 studentID blank:false, nullable:false, unique:true
     }
 }
