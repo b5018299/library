@@ -48,7 +48,7 @@
 							<h3>Search</h3>
 							<p></p>
 							<button type="button" class="btn btn-success">
-								<g:link controller="student" action="search">Courses</g:link>
+								<g:link controller="librarian" action="search">Courses</g:link>
 							</button>
 						</div>
 							<div class="second">

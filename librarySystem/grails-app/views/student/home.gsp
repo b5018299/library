@@ -14,34 +14,34 @@
 	<div class="row">
 		
 		<div class="first">
-			<h2>Course Management</h3>
+			<h2>Add a Book Review</h3>
 		<p>blah blah blah content content content</p>
 			<button type="button" class="btn btn-success">
-				<g:link controller="course" action="create">Course</g:link>
+				<g:link controller="BookReview" action="create">Book Reviews</g:link>
 			</button>
 		</div>
 
 			<div class="second">
-				<h2>Module Management</h3>
+				<h2>View Book Reviews</h3>
 			<p>blah blah blah content content content</p>
 				<button type="button" class="btn btn-success">
-					<g:link controller="module" action="create">Module</g:link>
+					<g:link controller="BookReview" action="index">Book Reviews</g:link>
 				</button>
 			</div>
 
 				<div class="first">
-					<h2>Student Management</h3>
+					<h2>View Books</h3>
 				<p>blah blah blah content content content</p>
 					<button type="button" class="btn btn-success">
-						<g:link controller="student" action="create">Student</g:link>
+						<g:link controller="Books" action="index">books</g:link>
 					</button>
 				</div>
 
 					<div class="second">
-						<h2>Lecturer Management</h3>
-					<p>blah blah blah content content content</p>
+						<h2>Search a Book</h3>
+					<p>blah blah blah content content book content</p>
 						<button type="button" class="btn btn-success">
-							<g:link controller="lecturer" action="create">Lecturer</g:link>
+							<g:link controller="book" action="advSearch">Lecturer</g:link>
 						</button>
 					</div>
 						<div class="first">

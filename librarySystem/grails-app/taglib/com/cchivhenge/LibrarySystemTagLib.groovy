@@ -9,7 +9,7 @@ class LibrarySystemTagLib {
 	if(request.getSession(false) && session.user){
 	out << "<span style='float:left; margin-left:15px'>"
 	out << "Welcome ${session.user.fullName}."
-	out << "Logout</a></span>"
+	out << "</span>"
 	
 	if(session.role=='librarian') {
 	out << "</span><span style='float:right; margin-right: 15px'>"

@@ -14,11 +14,21 @@
 </head>
 <body>
 
-    <div class="row">
-	<asset:image src="libraryheader2.jpg"/>
-	<g:loginToggle/>
-	</div>
+	<div class="navbar-default navbar-static-top" role=navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<a class-"navbar-brand" href="/#">
+					<i class="fa grails-icon">
+						<asset:image src="sheffield_hallam_logo.png" style="width: 250px"/>
+					</i> Library System
+					<br>
+				</a>
+			</div>
 
+    		</div>
+		<g:loginToggle/>
+	</div>
+	<asset:image src="libraryHeader2.jpg" style="width: 100%"/>
     <g:layoutBody/>
 
     <div class="footer" role="contentinfo"></div>

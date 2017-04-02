@@ -12,7 +12,7 @@ class StudentController {
 		if(user && user.password == params.password){
 	
 		session.user = user
-
+		session.role = 'student'
 		render view:'home'
 
 		}
@@ -26,8 +26,29 @@ class StudentController {
 		}
 		
 			def logout = {
-			
+				session.role = null
 				session.user = null
 				redirect(uri:'/')
 				}
+
+	def search(){
+
+		}
+	def results(){
+		def bookProps = Book.metaClass.properties*.name
+		def books = Book.withCriteria{
+			"${params.queryType}"{
+				params.each{field,value ->
+				
+				if(bookProps.grep(field)&& value){
+					ilike(field, value)
+				}
+			}
+		}
+	}
+	[books:books]
+
+
+
+}
 }
