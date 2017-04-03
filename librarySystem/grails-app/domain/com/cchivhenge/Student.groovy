@@ -9,9 +9,10 @@ String password
 String studentID
 Course course
 Library library
+String toString(){
+return fullName}
 
 static hasMany=[bookReviews:BookReview, books:Book]
-
 
     static constraints = {
 

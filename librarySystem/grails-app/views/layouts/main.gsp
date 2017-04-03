@@ -19,7 +19,7 @@
 			<div class="navbar-header">
 				<a class-"navbar-brand" href="/#">
 					<i class="fa grails-icon">
-						<asset:image src="sheffield_hallam_logo.png" style="width: 250px"/>
+						<asset:image src="sheffield_hallam_logo.png" style="width: 170px"/>
 					</i> Library System
 					<br>
 				</a>

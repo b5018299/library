@@ -6,6 +6,8 @@ Date datePublished
 String review
 Student student
 Book book
+String toString(){
+return book}
 
     static constraints = {
 

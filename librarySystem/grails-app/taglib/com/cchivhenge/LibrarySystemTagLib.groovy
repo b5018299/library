@@ -14,12 +14,12 @@ class LibrarySystemTagLib {
 	if(session.role=='librarian') {
 	out << "</span><span style='float:right; margin-right: 15px'>"
 	out << "<a href='${createLink(controller:'librarian',action:'logout')}'>"
-	out << "Librarian Logout </a></span>"
+	out << "Logout </a></span>"
 	}
 	if(session.role=='student'){
 			out << "</span><span style='float:right; margin-right: 15px'>"
 			out << "<a href='${createLink(controller:'student',action:'logout')}'>"
-			out << "Student Logout </a></span>"
+			out << "Logout </a></span>"
 	}
 	} else{
 	out << "<span style='float:right;margin-right:10px'>"

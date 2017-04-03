@@ -14,64 +14,42 @@
 	<div class="row">
 		
 		<div class="first">
-			<h2>Course Management</h3>
-		<p>blah blah blah content content content</p>
+			<h1>Add Students</h1>
+		<p>Click here to manage the students in a library.</p>
 			<button type="button" class="btn btn-success">
-				<g:link controller="course" action="create">Course</g:link>
+				<g:link controller="student" action="create">Add Students</g:link>
 			</button>
 		</div>
 
 			<div class="second">
-				<h2>Module Management</h3>
-			<p>blah blah blah content content content</p>
+				<h3>Add Books</h3>
+			<p>Click here to add books.</p>
 				<button type="button" class="btn btn-success">
-					<g:link controller="module" action="create">Module</g:link>
+					<g:link controller="book" action="create">Add Books</g:link>
 				</button>
 			</div>
 
 				<div class="first">
-					<h2>Student Management</h3>
-				<p>blah blah blah content content content</p>
+					<h3>Create Course</h3>
+				<p>Click here to manage the courses.</p>
 					<button type="button" class="btn btn-success">
-						<g:link controller="student" action="create">Student</g:link>
+						<g:link controller="student" action="create">Create Course</g:link>
 					</button>
 				</div>
 
 					<div class="second">
-						<h2>Lecturer Management</h3>
-					<p>blah blah blah content content content</p>
+						<h3>Register a Librarian</h3>
+					<p>Click here to register other librarians.</p>
 						<button type="button" class="btn btn-success">
 							<g:link controller="lecturer" action="create">Lecturer</g:link>
 						</button>
 					</div>
 						<div class="first">
 							<h3>Search</h3>
-							<p></p>
+							<p>Click here to search for students by their name.</p>
 							<button type="button" class="btn btn-success">
-								<g:link controller="librarian" action="search">Courses</g:link>
+								<g:link controller="librarian" action="search">Search</g:link>
 							</button>
-						</div>
-							<div class="second">
-								<h3>Advanced Search</h3>
-								<p></p>
-								<button type="button" class="btn btn-success">
-									<g:link controller="student" action="advSearch">Courses</g:link>
-								</button>
-							</div>
-								<div class="first">
-									<h3>Display Modules</h3>
-									<p></p>
-									<button type="button" class="btn btn-success">
-										<g:link controller="module" action="index">Index</g:link>
-									</button>
-								</div>
-									<div class="second">
-										<h3>Show</h3>
-										<p></p>
-										<button type="button" class="btn btn-success">
-											<g:link controller="module" action="index">show</g:link>
-										</button>
-									</div>
 
 		</div>
 	</div>

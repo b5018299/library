@@ -9,6 +9,8 @@ String department
 String description
 String studyMode
 Boolean sandwichDegree
+String toString(){
+return title} 
 
 static hasMany=[students:Student]
 

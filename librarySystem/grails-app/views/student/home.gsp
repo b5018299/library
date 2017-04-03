@@ -14,8 +14,8 @@
 	<div class="row">
 		
 		<div class="first">
-			<h2>Add a Book Review</h3>
-		<p>blah blah blah content content content</p>
+			<h2>Submit a Book Review</h3>
+		<p>Want to share or review a recent book you have read? Click here to submit a book review.</p>
 			<button type="button" class="btn btn-success">
 				<g:link controller="BookReview" action="create">Book Reviews</g:link>
 			</button>
@@ -23,7 +23,7 @@
 
 			<div class="second">
 				<h2>View Book Reviews</h3>
-			<p>blah blah blah content content content</p>
+			<p>Click here to view the list of books</p>
 				<button type="button" class="btn btn-success">
 					<g:link controller="BookReview" action="index">Book Reviews</g:link>
 				</button>
@@ -33,45 +33,32 @@
 					<h2>View Books</h3>
 				<p>blah blah blah content content content</p>
 					<button type="button" class="btn btn-success">
-						<g:link controller="Books" action="index">books</g:link>
+						<g:link controller="Book" action="index">books</g:link>
 					</button>
 				</div>
 
 					<div class="second">
-						<h2>Search a Book</h3>
-					<p>blah blah blah content content book content</p>
+						<h2>Search for a Book</h3>
+					<p>Click here to search for a book</p>
 						<button type="button" class="btn btn-success">
-							<g:link controller="book" action="advSearch">Lecturer</g:link>
+							<g:link controller="student" action="search">Search a Book</g:link>
 						</button>
 					</div>
-						<div class="first">
-							<h3>Search</h3>
-							<p></p>
+						<div class="second">
+							<h3>Index Action</h3>
+						<p></p>
 							<button type="button" class="btn btn-success">
-								<g:link controller="student" action="search">Courses</g:link>
+								<g:link controller="book" action="indexView">show</g:link>
 							</button>
 						</div>
 							<div class="second">
-								<h3>Advanced Search</h3>
-								<p></p>
+								<h3>Show Action</h3>
+							<p></p>
 								<button type="button" class="btn btn-success">
-									<g:link controller="student" action="advSearch">Courses</g:link>
+									<g:link controller="book" action="showView">show</g:link>
 								</button>
 							</div>
-								<div class="first">
-									<h3>Display Modules</h3>
-									<p></p>
-									<button type="button" class="btn btn-success">
-										<g:link controller="module" action="index">Index</g:link>
-									</button>
-								</div>
-									<div class="second">
-										<h3>Show</h3>
-										<p></p>
-										<button type="button" class="btn btn-success">
-											<g:link controller="module" action="index">show</g:link>
-										</button>
-									</div>
+							
 
 		</div>
 	</div>

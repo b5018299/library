@@ -9,6 +9,8 @@ String userName
 String password
 String telephone
 Library library
+String toString(){
+return fullName}
 
     static constraints = {
 
